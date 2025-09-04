@@ -1,4 +1,5 @@
 import { ModeToggle } from "./mode-toggle";
+import { NavLink } from "react-router";
 
 export default function Header() {
   return (
@@ -6,9 +7,15 @@ export default function Header() {
       <div className="mx-auto max-w-3xl px-10 py-8">
         <nav className="flex items-center content-center justify-center">
           <ul className="flex gap-4">
-            <li>home</li>
-            <li>projects</li>
-            <li>contact</li>
+            <li>
+              <NavLink to="/">home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/projects">projects</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">contact</NavLink>
+            </li>
             <div>
               <ModeToggle />
             </div>
