@@ -12,11 +12,11 @@ import { Globe, Github } from "lucide-react";
 
 export default function Projects() {
   return (
-    <section>
+    <section className="flex flex-col gap-8">
       <h1 className="text-2xl">sample projects</h1>
-      <div className="flex justify-between gap-4">
+      <div className="flex gap-4">
         {/* FitLog */}
-        <Card className="min-w-xs">
+        <Card className="flex-1 flex flex-col">
           <CardHeader>
             <CardTitle>FitLog</CardTitle>
             <CardDescription>
@@ -24,7 +24,7 @@ export default function Projects() {
               reps, and weight.
             </CardDescription>
           </CardHeader>
-          <CardContent className="flex flex-wrap">
+          <CardContent className="flex flex-wrap flex-1 gap-1">
             <Badge>Docker</Badge>
             <Badge>Django</Badge>
             <Badge>JavaScript</Badge>
@@ -32,7 +32,7 @@ export default function Projects() {
             <Badge>Python</Badge>
             <Badge>React</Badge>
           </CardContent>
-          <CardFooter>
+          <CardFooter className="flex flex-wrap gap-2">
             <a href="https://fitlog-frontend.vercel.app/" target="_blank">
               <Button variant="outline" size="sm">
                 <Globe />
@@ -51,15 +51,15 @@ export default function Projects() {
         {/* FitLog */}
 
         {/* PassLock */}
-        <Card className="min-w-xs">
+        <Card className="flex-1 flex flex-col">
           <CardHeader>
             <CardTitle>PassLock</CardTitle>
             <CardDescription>
-              A password manager web app to store sensitive credentials with
-              encryption.
+              A password manager web app to store and manage sensitive
+              credentials with encryption.
             </CardDescription>
           </CardHeader>
-          <CardContent>
+          <CardContent className="flex flex-wrap flex-1 gap-1">
             <Badge>CSS</Badge>
             <Badge>Django</Badge>
             <Badge>HTML</Badge>

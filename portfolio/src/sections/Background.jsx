@@ -12,10 +12,20 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function Background() {
   return (
-    <Tabs className="flex w-full" defaultValue="work">
-      <TabsList>
-        <TabsTrigger value="work">work</TabsTrigger>
-        <TabsTrigger value="education">education</TabsTrigger>
+    <Tabs className="flex " defaultValue="work">
+      <TabsList className="w-full">
+        <TabsTrigger
+          value="work"
+          className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground dark:data-[state=active]:bg-gray-200 dark:data-[state=active]:text-black"
+        >
+          work
+        </TabsTrigger>
+        <TabsTrigger
+          value="education"
+          className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground dark:data-[state=active]:bg-gray-200 dark:data-[state=active]:text-black"
+        >
+          education
+        </TabsTrigger>
       </TabsList>
       <TabsContent value="work">
         <Card>

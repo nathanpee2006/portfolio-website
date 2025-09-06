@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="flex gap-8">
       <div>
-        <h1 className="text-4xl">its me nathan.</h1>
+        <h1 className="text-4xl">its me nathan. ✌️</h1>
         <p>19yo aspiring nz software engineer</p>
         <p>wannabe full-stack</p>
         <div className="flex mt-6 items-center flex-wrap gap-4">

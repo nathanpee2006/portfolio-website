@@ -1,10 +1,11 @@
 import Hero from "../sections/Hero";
 import Background from "../sections/Background";
-import Projects from "../sections/Projects";
+import Projects from "../sections/SampleProjects";
+import Container from "../components/Container";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-3xl flex flex-col px-10">
+    <Container className="flex flex-col">
       <main>
         <article className="mt-8 flex flex-col gap-16 pb-16">
           <Hero />
@@ -12,6 +13,6 @@ export default function Home() {
           <Projects />
         </article>
       </main>
-    </div>
+    </Container>
   );
 }

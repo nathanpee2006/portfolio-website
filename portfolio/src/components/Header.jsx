@@ -1,10 +1,11 @@
 import { ModeToggle } from "./mode-toggle";
 import { NavLink } from "react-router";
+import Container from "./Container";
 
 export default function Header() {
   return (
-    <header className="sticky top-0">
-      <div className="mx-auto max-w-3xl px-10 py-8">
+    <header className="sticky top-0 bg-transparent backdrop-blur-[10px]">
+      <Container className="py-8">
         <nav className="flex items-center content-center justify-center">
           <ul className="flex gap-4">
             <li>
@@ -21,7 +22,7 @@ export default function Header() {
             </div>
           </ul>
         </nav>
-      </div>
+      </Container>
     </header>
   );
 }

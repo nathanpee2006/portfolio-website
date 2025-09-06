@@ -12,6 +12,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import Container from "@/components/Container";
 
 export default function Contact() {
   const form = useForm({
@@ -70,7 +71,7 @@ export default function Contact() {
 
   return (
     <>
-      <div className="mx-auto max-w-3xl flex flex-col px-10">
+      <Container className="flex flex-col">
         <h1 className="text-4xl">contact</h1>
         {!isSubmitSuccessful && (
           <Form {...form}>
@@ -245,7 +246,7 @@ export default function Contact() {
             </button>
           </div>
         )}
-      </div>
+      </Container>
     </>
   );
 }
