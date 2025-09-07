@@ -71,11 +71,11 @@ export default function Contact() {
 
   return (
     <>
-      <Container className="flex flex-col">
+      <Container className="flex flex-col mt-8 gap-10">
         <h1 className="text-4xl">contact</h1>
         {!isSubmitSuccessful && (
           <Form {...form}>
-            <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
+            <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
               <input
                 type="hidden"
                 value="263e5c06-dd1b-482f-affe-26c9783be074"
