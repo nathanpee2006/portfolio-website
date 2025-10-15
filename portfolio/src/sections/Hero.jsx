@@ -1,4 +1,5 @@
 import { FileUser, Github, Mail } from "lucide-react";
+import photo from "../assets/nathan-palileo.jpg";
 
 export default function Hero() {
   return (
@@ -20,8 +21,10 @@ export default function Hero() {
         </div>
       </div>
       <img
-        src="https://media1.tenor.com/m/ekrajwZe7qcAAAAd/leland-leland-dance.gif"
-        alt="temporary pic replace with real handsome profile pic"
+        src={photo}
+        alt="picture of nathan palileo"
+        height={300}
+        width={300}
       />
     </section>
   );
