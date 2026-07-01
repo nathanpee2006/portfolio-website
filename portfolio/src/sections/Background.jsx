@@ -30,9 +30,10 @@ export default function Background() {
       <TabsContent value="work">
         <Card>
           <CardHeader>
-            <CardTitle>uhmmmm...</CardTitle>
+            <time className="text-xs">Nov 2025 - Feb 2026</time>
+            <CardTitle>Aderant</CardTitle>
             <CardDescription>
-              zero job experience... soon ( ͡° ͜ʖ ͡°)
+              <p>QA Automation Engineer Intern</p>
             </CardDescription>
           </CardHeader>
           <CardContent className="grid gap-6"></CardContent>

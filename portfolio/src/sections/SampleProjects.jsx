@@ -24,42 +24,8 @@ const projectsData = [
       "Python",
       "React",
     ],
-    websiteUrl: "https://fitlog-frontend.vercel.app/",
+    websiteUrl: "",
     githubUrl: "https://github.com/nathanpee2006/FitLog",
-    hasWebsite: true,
-  },
-  {
-    id: 2,
-    title: "PassLock",
-    description:
-      "A password manager web app to store and manage sensitive credentials with encryption.",
-    technologies: [
-      "Bootstrap",
-      "CSS",
-      "Django",
-      "HTML",
-      "JavaScript",
-      "Python",
-      "SQLite",
-    ],
-    githubUrl: "https://github.com/nathanpee2006/PassLock",
-    hasWebsite: false,
-  },
-  {
-    id: 3,
-    title: "RecipEye",
-    description:
-      "A web app that outputs recipe suggestions based on the inputted ingredients by a user.",
-    technologies: [
-      "Bootstrap",
-      "CSS",
-      "Flask",
-      "HTML",
-      "JavaScript",
-      "Python",
-      "SQLite",
-    ],
-    githubUrl: "https://github.com/nathanpee2006/RecipEye",
     hasWebsite: false,
   },
 ];

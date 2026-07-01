@@ -6,8 +6,8 @@ export default function Hero() {
     <section className="flex gap-8">
       <div>
         <h1 className="text-4xl">its me nathan. ✌️</h1>
-        <p>19yo aspiring nz software engineer</p>
-        <p>wannabe full-stack</p>
+        <p>20yo aspiring software engineer</p>
+        <p>studying backend and cloud technologies</p>
         <div className="flex mt-6 items-center flex-wrap gap-4">
           <a href="./public/Nathan Palileo Portfolio.pdf" download="portfolio">
             <FileUser />
